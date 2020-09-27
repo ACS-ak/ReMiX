@@ -87,3 +87,4 @@ pyaztro
 jikanpy
 lottie
 wand
+nekos.py
