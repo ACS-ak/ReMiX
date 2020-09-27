@@ -1,10 +1,10 @@
 # We're using Ubuntu 20.10
-FROM jkthe1/docker:groovy
+FROM sahyam/docker:groovy
 
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b sql-extended https://github.com/jkthe1/ReMiX /root/userbot
+RUN git clone -b jkthe1 https://github.com/jkthe1/ReMiX /root/userbot
 RUN mkdir /root/userbot/.bin
 WORKDIR /root/userbot
 
